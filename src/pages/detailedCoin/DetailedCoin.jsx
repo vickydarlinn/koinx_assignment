@@ -16,7 +16,7 @@ const DetailedCoin = () => {
         </span>
       </nav>
       <section className="flex gap-2">
-        <section className="w-full">
+        <section className="w-full overflow-hidden">
           <CoinAnalysis />
         </section>
         <section className="w-full max-w-96 ">

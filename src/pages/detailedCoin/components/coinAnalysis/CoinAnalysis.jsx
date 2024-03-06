@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { Outlet } from "react-router-dom";
+import CoinSentiment from "../coinSentiment";
 
 const CoinAnalysis = () => {
   return (
@@ -49,7 +49,7 @@ const CoinAnalysis = () => {
           Tokenomics
         </NavLink>
       </nav>
-      <Outlet />
+      <CoinSentiment />
     </section>
   );
 };
