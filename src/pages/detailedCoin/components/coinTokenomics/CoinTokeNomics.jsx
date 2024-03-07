@@ -8,13 +8,13 @@ const CoinTokeNomics = () => {
   ];
   const COLORS = ["#FAA002", "#0082FF"];
   return (
-    <section className="bg-white p-5 rounded-lg  " id="tokenomics">
-      <h2 className="text-[#0E1629] text-2xl font-semibold py-2">Tokenomics</h2>
+    <section className="rounded-lg bg-white p-5   " id="tokenomics">
+      <h2 className="py-2 text-2xl font-semibold text-[#0E1629]">Tokenomics</h2>
       <div>
-        <h3 className="text-xl font-semibold py-2 text-[#0B1426]">
+        <h3 className="py-2 text-xl font-semibold text-[#0B1426]">
           Initial Distribution
         </h3>
-        <div className="flex items-center gap-4 py-2">
+        <div className="flex flex-col items-center gap-4 py-2 md:flex-row">
           <PieChart width={200} height={200}>
             <Pie
               data={data}
@@ -33,18 +33,18 @@ const CoinTokeNomics = () => {
               ))}
             </Pie>
           </PieChart>
-          <div className="flex flex-col gap-5">
-            <div className="flex gap-3 items-center">
-              <div className="w-3 h-3 rounded-full bg-[#0082FF]"></div>
+          <div className="flex flex-wrap  justify-center gap-5 md:flex-col">
+            <div className="flex items-center gap-3">
+              <div className="h-3 w-3 rounded-full bg-[#0082FF]"></div>
               <span>Crowdsale investors: 80%</span>
             </div>
-            <div className="flex gap-3 items-center">
-              <div className="w-3 h-3 rounded-full bg-[#FAA002]"></div>
+            <div className="flex items-center gap-3">
+              <div className="h-3 w-3 rounded-full bg-[#FAA002]"></div>
               <span>Foundation: 20%</span>
             </div>
           </div>
         </div>
-        <p className="text-[#3E424A] py-2 mb-5">
+        <p className="mb-5 py-2 text-[#3E424A]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
           voluptatibus in praesentium, sapiente quisquam error soluta esse
           eveniet neque, rerum sit, aut illo itaque doloremque animi repudiandae
