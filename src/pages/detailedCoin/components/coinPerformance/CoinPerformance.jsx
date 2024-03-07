@@ -1,9 +1,5 @@
 const CoinPerformance = () => {
-  return (
-    <section>
-      <h2>Performance</h2>
-    </section>
-  );
+  return <div>CoinPerformance</div>;
 };
 
 export default CoinPerformance;

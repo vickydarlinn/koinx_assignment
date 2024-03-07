@@ -1,5 +1,8 @@
 import { NavLink } from "react-router-dom";
 import CoinSentiment from "../coinSentiment";
+import CoinOverView from "../coinOverView";
+import CoinPerformance from "../coinPerformance/CoinPerformance";
+import CoinTokeNomics from "../coinTokenomics/CoinTokeNomics";
 
 const CoinAnalysis = () => {
   return (
@@ -49,7 +52,10 @@ const CoinAnalysis = () => {
           Tokenomics
         </NavLink>
       </nav>
-      <CoinSentiment />
+      {/* <CoinSentiment /> */}
+      {/* <CoinOverView /> */}
+      {/* <CoinPerformance /> */}
+      <CoinTokeNomics />
     </section>
   );
 };
