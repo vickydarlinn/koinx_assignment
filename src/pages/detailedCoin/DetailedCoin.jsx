@@ -3,6 +3,7 @@ import CoinChart from "./components/coinChart";
 import joiningPerson from "../../assets/images/joiningPerson.webp";
 import { FaArrowRightLong } from "react-icons/fa6";
 import CoinAnalysis from "./components/coinAnalysis";
+import FeaturedCoins from "../../components/featuredCoins";
 
 const DetailedCoin = () => {
   const { coinId } = useParams();
@@ -15,8 +16,8 @@ const DetailedCoin = () => {
           {coinId}
         </span>
       </nav>
-      <section className="flex gap-2">
-        <section className="w-full overflow-hidden">
+      <section className="flex gap-2 px-12">
+        <section className="w-[calc(100vw-384px)]">
           <CoinAnalysis />
         </section>
         <section className="w-full max-w-96 ">
@@ -63,6 +64,7 @@ const DetailedCoin = () => {
           </section>
         </section>
       </section>
+      <FeaturedCoins />
     </>
   );
 };

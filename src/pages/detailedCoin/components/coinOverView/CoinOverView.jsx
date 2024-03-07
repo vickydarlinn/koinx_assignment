@@ -2,7 +2,7 @@ import overViewImage from "../../../../assets/images/overview.avif";
 
 const CoinOverView = () => {
   return (
-    <section className="bg-white p-5 rounded-lg  ">
+    <section className="bg-white p-5 rounded-lg  " id="overview">
       <h2 className="text-[#0E1629] text-2xl font-semibold py-2">
         About Bitcoin
       </h2>

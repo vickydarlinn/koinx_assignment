@@ -5,7 +5,7 @@ import { MdArrowForwardIos } from "react-icons/md";
 
 const CoinSentiment = () => {
   return (
-    <section className="bg-white p-5 rounded-lg  ">
+    <section className="bg-white p-5 rounded-lg  " id="sentiment">
       <h3 className="text-[#0E1629] text-2xl font-semibold py-2">Sentiment</h3>
       <div className="overflow-hidden w-full">
         <div className="flex items-center gap-2  font-semibold py-3">

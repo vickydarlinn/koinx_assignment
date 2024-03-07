@@ -2,7 +2,7 @@ import profilePic from "../../../../assets/images/profile.avif";
 
 const CoinTeam = () => {
   return (
-    <section className="bg-white p-5 rounded-lg  ">
+    <section className="bg-white p-5 rounded-lg  " id="team">
       <h2 className="text-[#0E1629] text-2xl font-semibold py-2">Team</h2>
       <p className="text-[#3E424A] py-2">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,

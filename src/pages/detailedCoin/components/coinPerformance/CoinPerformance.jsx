@@ -2,7 +2,7 @@ import { IoIosInformationCircle } from "react-icons/io";
 
 const CoinPerformance = () => {
   return (
-    <section className="bg-white p-5 rounded-lg  ">
+    <section className="bg-white p-5 rounded-lg  " id="performance">
       <h2 className="text-[#0E1629] text-2xl font-semibold py-2">
         Performance
       </h2>

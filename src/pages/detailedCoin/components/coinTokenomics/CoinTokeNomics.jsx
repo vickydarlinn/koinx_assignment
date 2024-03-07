@@ -8,7 +8,7 @@ const CoinTokeNomics = () => {
   ];
   const COLORS = ["#FAA002", "#0082FF"];
   return (
-    <section className="bg-white p-5 rounded-lg  ">
+    <section className="bg-white p-5 rounded-lg  " id="tokenomics">
       <h2 className="text-[#0E1629] text-2xl font-semibold py-2">Tokenomics</h2>
       <div>
         <h3 className="text-xl font-semibold py-2 text-[#0B1426]">
